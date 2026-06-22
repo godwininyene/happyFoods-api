@@ -1,5 +1,5 @@
-const dns = require('dns');
-dns.setDefaultResultOrder('ipv4first'); // Forces Node to use IPv4 instead of IPv6
+// const dns = require('dns');
+// dns.setDefaultResultOrder('ipv4first'); // Forces Node to use IPv4 instead of IPv6
 
 const dotenv = require('dotenv');
 dotenv.config({path:'./config.env'})
