@@ -6,7 +6,7 @@ const { protect, restrictTo } = require('../controllers/authController');
 // --- GLOBAL GUARD ---
 // Every single inventory route requires a valid login
 // Anything below this line is protected
-// router.use(protect);
+router.use(protect);
 
 // --- READ ROUTES (admin + cashier) ---
 // Both roles need to read inventory
