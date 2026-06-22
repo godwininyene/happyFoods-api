@@ -1,0 +1,24 @@
+{
+  "name": "happyfoods-api",
+  "version": "1.0.0",
+  "description": "This api will be use to power happiness HND Final Year Project named \"HappyFoods\"",
+  "license": "ISC",
+  "author": "Godwin Inyene",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "validator": "^13.15.35"
+  }
+}
